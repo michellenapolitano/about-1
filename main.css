@@ -1,0 +1,74 @@
+.home {
+  z-index: -1;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 100%;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.description {
+  top: 170px;
+  position: relative;
+  max-width: 850px;
+}
+@media (max-width: 1000px) 
+{body .description {   left: 330px;
+    max-width: 900px;
+    top: 20px;
+    left: 12px;
+}}
+@media (max-width: 1000px) {
+body .description { visibility: hidden;
+}}
+.smalldes {
+  max-width: 900px;
+  left: 12px;
+  top: 1px;
+}
+@media (min-width: 1000px) {
+body .smalldes { visibility: hidden;
+}}
+.menu { 
+  position: relative;
+  z-index: 5;
+  max-width: 150px;
+  right: -1180px;
+bottom: -400px; }
+@media (max-width: 1000px) 
+{body .menu {   left: 470px;
+    max-width: 300px;
+    top: 1700px;
+}}
+.milkshake {
+  position: relative;
+  max-width: 250px;
+  left: -87px;
+  bottom: -420px;}
+
+  .milkshake:hover {
+    transform: rotate(180deg);
+    transition: all 0.5s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function
+}
+@media (max-width: 1000px) 
+{body .milkshake { visibility: hidden;
+}}
+
+.opening {
+    top: 25px;
+  z-index: 1;
+  position: fixed;
+max-width: 700px;
+left: 30px;
+  }
+}
